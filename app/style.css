@@ -27,19 +27,41 @@ aside {
     width: 20%;
 }
 
-.search {
-
+#weather {
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
 }
 
-.search > * {
+#search > * {
     margin-bottom: 10px;
     display: block;
 }
 
-.search > input {
+#search > input {
     width: 90%;
 }
 
-.search > button {
+#search > button {
     width: calc(90% + 10px);
+}
+
+#info {
+    border-bottom: 1px black solid;
+}
+
+#fiveDay {
+    display: flex;
+}
+
+.fiveDay {
+    background-color: #33475A;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    flex: 1 1 0;
+}
+
+h3 {
+    margin: 10px;
 }

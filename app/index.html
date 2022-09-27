@@ -13,12 +13,12 @@
     </Nav>
     <main>
         <aside>
-            <div class="search">
+            <div id="search">
                 <h2>Search for a City:</h2>
-                <input type="text">
-                <button>Search</button>
+                <input type="text" id="searchInput">
+                <button id="searchButton">Search</button>
             </div>
-            <div class="cities">
+            <div id="cities">
                 <!-- empty to allow automatic addition of places -->
             </div>
         </aside>
@@ -26,13 +26,11 @@
             <div id="info"> 
                 <h2 id="title">Title</h2>
                 <p>Temp: <span id="temp"></span></p>
-                <p>Wind: <span id="temp"></span></p>
-                <p>Humidity: <span id="temp"></span></p>
-                <p>UV Index: <span id="temp"></span></p>
+                <p>Wind: <span id="wind"></span></p>
+                <p>Humidity: <span id="humidity"></span></p>
             </div>
-            <div id="5day">
-
-            </div>
+            <h3>5-Day Forecast</h3>
+            <div id="fiveDay"></div>
         </div>
     </main>
     <script src="./script.js"></script>
