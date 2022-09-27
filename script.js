@@ -1,5 +1,5 @@
 async function reqLocation(query) {
-    res = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${query}&limit=5&appid=9d8df2fdb37d81bc3ff5b3c45ce56a02`);
+    res = await fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${query}&limit=5&appid=9d8df2fdb37d81bc3ff5b3c45ce56a02`);
     data = await res.json();
     
     // console.log("Location request: ", data);
