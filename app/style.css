@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+nav {
+    background-color: #334A9C;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    padding: 10px;
+}
+
+main {
+    height: calc(100vh - 47px);
+    display: flex;
+}
+
+aside {
+    margin: 10px;
+    padding: 5px;
+    border-right: 1px black solid;
+    width: 20%;
+}
+
+.search {
+
+}
+
+.search > * {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.search > input {
+    width: 90%;
+}
+
+.search > button {
+    width: calc(90% + 10px);
+}
